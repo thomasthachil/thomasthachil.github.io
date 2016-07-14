@@ -1,0 +1,30 @@
+{
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-qunit": "~0.5.2",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-uglify": "~0.5.0"
+  },
+  "name": "thomasthachil.github.io",
+  "description": "Personal Site",
+  "version": "1.0.0",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasthachil/thomasthachil.github.io.git"
+  },
+  "author": "Thomas Thachil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomasthachil/thomasthachil.github.io/issues"
+  },
+  "homepage": "https://github.com/thomasthachil/thomasthachil.github.io#readme"
+}
