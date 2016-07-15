@@ -11,6 +11,16 @@ module.exports = function(grunt) {
       '* Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author.name %>;' +
       ' Licensed <%= _.pluck(pkg.licenses, "type").join(", ") %> */\n',
     // Task configuration.
+    sass: {
+        dist: {
+            options: {                       // Target options
+                trace: true
+          },
+            files: {
+                'css/style.css': 'css/style.scss'
+            }
+        }
+    },
     concat: {
       options: {
         banner: '<%= banner %>',
