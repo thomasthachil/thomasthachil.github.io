@@ -1,8 +1,27 @@
+
+
+/* Starter CSS I use for every project */
+s
 html, body {
     margin: 0;
-
-}
-
-nav {
+    padding: 0;
     width: 100%;
+    height: 100%;
+
 }
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+header, nav, footer, section, article, div {
+    box-sizing: border-box;
+}
+
+img, embed, object, video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Meat and Bones */
