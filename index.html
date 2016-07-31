@@ -6,14 +6,130 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:200' rel='stylesheet' type='text/css'>
+    <style>
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%; }
+
+    h1, h2, h3, h4, h5, h6 {
+      margin: 0; }
+
+    header, nav, footer, section, article, div {
+      box-sizing: border-box; }
+
+    img, embed, object, video {
+      max-width: 100%;
+      height: auto; }
+
+    body {
+        font-family: 'Roboto', sans-serif;
+
+        background-color: #13283A;
+        color: #ffffff;
+    }
+
+    h1 {
+        font-size: 60px;
+        margin-bottom: 20px;
+        font-weight: 200;
+    }
+    p {
+        font-size: 40px;
+        font-weight: 200;
+    }
+
+    #logo {
+        margin: auto;
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    #content {
+        float: left;
+        margin-left: 10%;
+        width: 37.5%;
+        padding-right: 15px;
+    }
+
+    #graphic {
+        float: right;
+        margin-right: 10%;
+        width: 40%;
+        max-width: 500px;
+        padding-left: 15px;
+    }
+
+    #links {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #links a {
+        margin:15px;
+    }
+
+    #links a img {
+        max-width: 13%;
+    }
+
+    @media (max-width: 800px) {
+        #graphic {
+            display: none;
+        }
+
+        #content {
+            margin-right 10%;
+            padding-right: 0;
+            width: 75%;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        p {
+            font-size: 26px;
+        }
+        #logo {
+            margin-bottom: 50px;
+        }
+
+        #links {
+            margin-top: 30px;
+        }
+
+    }
+    </style>
 </head>
 
 
 <body>
-    <style>
-        
-    </style>
-    Welcome to my site. Sorry, but its undergoing some renovation currently. In the mean time, check me out on
+
+    <img id="logo" href="http://thomasthachil.com" src="tempAssets/Logo.png" srcset="tempAssets/Logo.png 1x, tempAssets/Logo@2x.png 2x"/>
+    <div id="content">
+        <h1>Hi there!</h1>
+        <p>
+            My site's currently undergoing some renovation, but in the meantime check me out at these cool places:
+        </p>
+        <div id="links">
+            <a href="http://github.com/thomasthachil">
+                <img id="github" src="tempAssets/GitHub.png" srcset="tempAssets/GitHub.png 1x, tempAssets/GitHub@2x.png 2x"/>
+            </a>
+            <a href="http://twitter.com/tthachil">
+                <img id="twitter" rc="tempAssets/Twitter.png" srcset="tempAssets/Twitter.png 1x, tempAssets/Twitter@2x.png 2x"/>
+            </a>
+            <a href="http://linkedin.com/in/thomasthachil">
+                <img id="linkedin" src="tempAssets/LinkedIn.png" srcset="tempAssets/LinkedIn.png 1x, tempAssets/LinkedIn@2x.png 2x"/>
+            </a>
+            <a>
+                <img id="resume" src="tempAssets/resume.png" srcset="tempAssets/resume.png 1x, tempAssets/resume@2x.png 2x"/>
+            </a>
+        </div>
+    </div>
+    <img id="graphic" src="tempAssets/construction.png" srcset="tempAssets/construction.png 1x, tempAssets/construction@2x.png 2x"/>
 </body>
 
 </html>
