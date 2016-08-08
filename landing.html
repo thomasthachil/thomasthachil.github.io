@@ -7,39 +7,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
+    <!-- Site info -->
+    <title>Thomas Thachil</title>
+
+    <link href="css/style.css" rel='stylesheet' type='text/css'>
 
 <body>
-    <section class="landing">
+    <section id="landing" class="container-fluid">
         <nav>
-            <div id="navLogo">
+            <div id="navLogo" class="pull-md-left">
+                <a href="http://thomasthachil.com">
+                    <img id="logo" src="assets/Logo.png" srcset="assets/Logo.png 1x, assets/Logo@2x.png 2x"/>
+                </a>
+
             </div>
-            <div id="navItems">
-                <div id="navItem"></div>
-                <div id="navItem"></div>
-                <div id="navItem"></div>
+            <div id="navItems" class="pull-md-right">
+                <div id="navItem"><a href="#work">WORK</a></div>
+                <div id="navItem"><a href="photography.html">PHOTOGRAPHY</a></div>
+                <div id="navItem">BLOG</div>
             </div>
+            <div style="clear: both;"></div>
         </nav>
-        <div id="landingContent">
-            <div id="message">
-                <p>
-                    Hi I'm Thomas. I'm a web developer with a passion for design and photography.
-                </p>
-            </div>
-            <div id="links">
-                <a href="http://github.com/thomasthachil">
-                    <img id="github" src="tempAssets/GitHub.png" srcset="tempAssets/GitHub.png 1x, tempAssets/GitHub@2x.png 2x"/>
-                </a>
-                <a href="http://twitter.com/tthachil">
-                    <img id="twitter" rc="tempAssets/Twitter.png" srcset="tempAssets/Twitter.png 1x, tempAssets/Twitter@2x.png 2x"/>
-                </a>
-                <a href="http://linkedin.com/in/thomasthachil">
-                    <img id="linkedin" src="tempAssets/LinkedIn.png" srcset="tempAssets/LinkedIn.png 1x, tempAssets/LinkedIn@2x.png 2x"/>
-                </a>
-                <a href="https://goo.gl/V1aj4h">
-                    <img id="resume" src="tempAssets/resume.png" srcset="tempAssets/resume.png 1x, tempAssets/resume@2x.png 2x"/>
-                </a>
+        <div class="container">
+            <div id="landingContent" class="col-md-8 pull-md-right">
+                <div id="message">
+                    <p>
+                        Hi I'm Thomas. I'm a web developer with a passion for design and photography.
+                    </p>
+                </div>
+                <div id="links">
+                    <a href="http://github.com/thomasthachil">
+                        <img id="github" src="icons/GitHub.png" srcset="icons/GitHub.png 1x, icons/GitHub@2x.png 2x"/>
+                    </a>
+                    <a href="http://twitter.com/tthachil">
+                        <img id="twitter" rc="icons/Twitter.png" srcset="icons/Twitter.png 1x, icons/Twitter@2x.png 2x"/>
+                    </a>
+                    <a href="http://linkedin.com/in/thomasthachil">
+                        <img id="linkedin" src="icons/LinkedIn.png" srcset="icons/LinkedIn.png 1x, icons/LinkedIn@2x.png 2x"/>
+                    </a>
+                    <a href="https://goo.gl/V1aj4h">
+                        <img id="resume" src="icons/resume.png" srcset="icons/resume.png 1x, icons/resume@2x.png 2x"/>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -48,7 +57,7 @@
 
     <!-- jQuery first, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>f
+    <script src="Bootstrap4/bootstrap43/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>

@@ -1,5 +1,5 @@
-
-
+@import '../Bootstrap4/bootstrap43/dist/css/bootstrap.min.css';
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
 /* Starter CSS I use for every project */
 
 html, body {
@@ -24,4 +24,58 @@ img, embed, object, video {
     height: auto;
 }
 
+a {
+    color: transparent;
+}
+
+
+/* Variables */
+
+$primary-color: #112039;
+$default-font-color: #ffffff;
+$default-font:'Roboto', sans-serif;
+$nav-font: 'Bebas', sans-serif;
+
+
+/* Setup colors & fonts */
+
+html, body, a {
+    color: $default-font-color;
+    font-family: $default-font;
+}
+
+/* Override Bootstrap */
+
+.container-fluid {
+    padding: 0;
+}
+
 /* Meat and Bones */
+
+#landing {
+    height: 100vh;
+    background-image: url('../assets/thomasCover.jpg');
+    background-size: cover;
+    opacity: 1.0;
+}
+
+nav {
+    padding: 30px;
+}
+
+#navItem {
+    display: inline-block;
+    font-size: 40px;
+    padding-left: 30px;
+}
+
+#landingContent {
+    text-align: right;
+    position: relative;
+    top: 55vh;
+    transform: translateY(-40vh);
+}
+
+#message p {
+    font-size: 48px;
+}
