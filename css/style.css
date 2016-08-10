@@ -38,7 +38,15 @@ html, body, a {
   opacity: 1.0; }
 
 nav {
-  padding: 30px; }
+  padding: 50px; }
+
+#navItems {
+  line-height: 111px; }
+
+.navItem {
+  display: inline-block;
+  font-size: 30px;
+  padding-left: 30px; }
 
 #navItem {
   display: inline-block;
@@ -52,6 +60,21 @@ nav {
   transform: translateY(-40vh); }
 
 #message p {
-  font-size: 48px; }
+  font-size: 48px;
+  padding-bottom: 20px; }
+
+#links a {
+  padding-right: 20px; }
+
+#contentArrow {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+/* Education */
+#education {
+  height: 1000px; }
 
 /*# sourceMappingURL=style.css.map */

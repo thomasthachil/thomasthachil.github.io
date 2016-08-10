@@ -9,30 +9,31 @@
 
     <!-- Site info -->
     <title>Thomas Thachil</title>
+    <link rel=icon href="icons/favicon.svg" sizes="64x64">
 
     <link href="css/style.css" rel='stylesheet' type='text/css'>
 
-<body>
-    <section id="landing" class="container-fluid">
-        <nav>
-            <div id="navLogo" class="pull-md-left">
-                <a href="http://thomasthachil.com">
-                    <img id="logo" src="assets/Logo.png" srcset="assets/Logo.png 1x, assets/Logo@2x.png 2x"/>
-                </a>
+    <body>
+        <section id="landing" class="container-fluid">
+            <nav>
+                <div id="navLogo" class="pull-md-left">
+                    <a href="http://thomasthachil.com">
+                        <img id="logo" src="assets/Logo.png" srcset="assets/Logo.png 1x, assets/Logo@2x.png 2x"/>
+                    </a>
 
-            </div>
-            <div id="navItems" class="pull-md-right">
-                <div id="navItem"><a href="#work">WORK</a></div>
-                <div id="navItem"><a href="photography.html">PHOTOGRAPHY</a></div>
-                <div id="navItem">BLOG</div>
-            </div>
-            <div style="clear: both;"></div>
-        </nav>
-        <div class="container">
-            <div id="landingContent" class="col-md-8 pull-md-right">
+                </div>
+                <div id="navItems" class="pull-md-right">
+                    <div class="navItem"><a href="#work">WORK</a></div>
+                    <div class="navItem"><a href="photography.html">PHOTOGRAPHY</a></div>
+                    <div class="navItem">BLOG</div>
+                </div>
+                <div style="clear: both;"></div>
+            </nav>
+
+            <div id="landingContent" class="col-xl-8 offset-xl-3">
                 <div id="message">
                     <p>
-                        Hi I'm Thomas. I'm a web developer with a passion for design and photography.
+                        Hi I'm Thomas.<br/> I'm a web developer with a passion <br/>for design and photography.
                     </p>
                 </div>
                 <div id="links">
@@ -50,14 +51,18 @@
                     </a>
                 </div>
             </div>
-        </div>
-    </section>
-    <section></section>
+            <a href="#education"><img id="contentArrow" src="icons/contentArrow.svg"/></a>
+
+        </section>
+        <section id="education" class="container-fluid"></section>
 
 
-    <!-- jQuery first, then Bootstrap JS. -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="Bootstrap4/bootstrap43/dist/js/bootstrap.min.js"></script>
-</body>
+        <!-- jQuery first, then Bootstrap JS. -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="Bootstrap4/bootstrap43/dist/js/bootstrap.min.js"></script>
 
-</html>
+        <!-- custom JS -->
+        <script src="js/scripts.js"></script>
+    </body>
+
+    </html>

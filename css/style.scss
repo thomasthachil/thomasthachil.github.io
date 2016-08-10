@@ -1,5 +1,7 @@
 @import '../Bootstrap4/bootstrap43/dist/css/bootstrap.min.css';
+
 @import url(https://fonts.googleapis.com/css?family=Roboto:100);
+
 /* Starter CSS I use for every project */
 
 html, body {
@@ -57,12 +59,21 @@ html, body, a {
     background-image: url('../assets/thomasCover.jpg');
     background-size: cover;
     opacity: 1.0;
+
 }
 
 nav {
-    padding: 30px;
+    padding: 50px;
 }
 
+#navItems {
+    line-height: 111px;
+}
+.navItem {
+    display: inline-block;
+    font-size: 30px;
+    padding-left: 30px;
+}
 #navItem {
     display: inline-block;
     font-size: 40px;
@@ -78,4 +89,23 @@ nav {
 
 #message p {
     font-size: 48px;
+    padding-bottom: 20px;
+}
+
+#links a {
+    padding-right: 20px;
+}
+
+#contentArrow {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: auto
+}
+
+/* Education */
+
+#education {
+    height: 1000px;
 }
