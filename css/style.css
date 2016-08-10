@@ -1,5 +1,11 @@
 @import url(../Bootstrap4/bootstrap43/dist/css/bootstrap.min.css);
 @import url(https://fonts.googleapis.com/css?family=Roboto:100);
+@font-face {
+  font-family: "Bebas-book";
+  src: url("../fonts/BebasNeue Book.ttf") format("truetype"); }
+@font-face {
+  font-family: "Bebas-light";
+  src: url("../fonts/BebasNeue Light.ttf") format("truetype"); }
 /* Starter CSS I use for every project */
 html, body {
   margin: 0;
@@ -38,15 +44,18 @@ html, body, a {
   opacity: 1.0; }
 
 nav {
-  padding: 50px; }
+  padding: 40px; }
 
 #navItems {
-  line-height: 111px; }
+  right: 0; }
 
 .navItem {
   display: inline-block;
-  font-size: 30px;
-  padding-left: 30px; }
+  font-size: 36px;
+  padding-left: 30px;
+  font-family: "Bebas-light", sans-serif; }
+  .navItem a {
+    font-family: "Bebas-light", sans-serif; }
 
 #navItem {
   display: inline-block;
@@ -65,6 +74,8 @@ nav {
 
 #links a {
   padding-right: 20px; }
+  #links a img {
+    height: 35px; }
 
 #contentArrow {
   position: absolute;
