@@ -84,8 +84,40 @@ nav {
   right: 0;
   margin: auto; }
 
-/* Education */
-#education {
-  height: 1000px; }
+/* Projects */
+#projects {
+  height: 1000px;
+  background-color: #242E33; }
+  #projects #projectTitle {
+    font-family: "Bebas-light", sans-serif;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 40px; }
+
+/* Contact */
+#contact {
+  background-image: url("../assets/Atlanta.jpg");
+  background-size: cover;
+  opacity: 1.0;
+  height: 100vh; }
+
+#contactMessage {
+  background-color: #36475E;
+  opacity: 0.9;
+  position: relative;
+  top: 300px;
+  font-size: 32px;
+  padding: 40px;
+  max-width: 700px; }
+
+#contactForm {
+  background-color: #E8E8E8;
+  height: 100%; }
+  #contactForm #contactTitle {
+    font-family: "Bebas-light", sans-serif;
+    font-size: 40px; }
+
+.tealText {
+  color: #00B7C1; }
 
 /*# sourceMappingURL=style.css.map */
