@@ -1,17 +1,18 @@
-@import '../libs/vars';
-@import '../libs/functions';
-//@import '../libs/mixins';
-
-
 /* Icons */
 
 
 .icons {
-    > ul {
-        list-style-type: none;
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+
+    li {
+        display:inline;
+        margin-right: 25px;
     }
     .icon {
-
+        font-size: 40px;
+        display: inline;
         > .label {
             display: none;
         }

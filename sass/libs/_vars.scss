@@ -1,11 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300|Roboto+Condensed:300,400|Source+Code+Pro:300');
+
 // Fonts
-    // $heading-font: (
-    //     family:
-    //     weight:
-    // );
-    //
-    // $paragraph-font: (
-    //     family:
-    //     weight:,
-    //
-    // );
+    $heading-font: (
+        font-family: ('Oswald', sans-serif),
+        weight:300
+    );
+
+    $subheading-font: (
+        font-family: ('Source Code Pro', monospace),
+        weight: 300
+
+    );
+
+    $main-font: (
+        font-family: ('Roboto Condensed', sans-serif),
+        weight: 300,
+        weight-bold: 400
+    );
+
+
+// Palette
+    $palette: (
+
+        bg: #000,
+
+        fg: white,
+        fg-bold: white,
+
+        accent-fg: #41649F
+
+    )
