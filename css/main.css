@@ -1,4 +1,12 @@
-.body {
-  margin: 5; }
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css");
+section {
+  background-color: #000000;
+  margin: 0; }
+
+/* Icons */
+.icons > ul {
+  list-style-type: none; }
+.icons .icon > .label {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */
