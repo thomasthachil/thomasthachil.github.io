@@ -536,15 +536,15 @@
 			}
 		}
 
-		&.avatar {
-			border-radius: 100%;
-
+		&.logo {
+			//border-radius: 100%;
+            padding-bottom: 30px;
 			&:before {
 				display: none;
 			}
 
 			img {
-				border-radius: 100%;
+				//border-radius: 100%;
 				width: 100%;
 			}
 		}
@@ -1208,9 +1208,9 @@
 				h1 {
 					font-size: 1.25em;
 
-					br {
-						display: none;
-					}
+					// br {
+					// 	display: inline;
+					// }
 				}
 			}
 
@@ -1249,7 +1249,7 @@
 
 			h1, h2, h3, h4, h5, h6 {
 				br {
-					display: none;
+					display: inline;
 				}
 			}
 
@@ -1274,7 +1274,7 @@
 				left: auto;
 				padding: ($size-header-pad * 1.5) $size-header-pad;
 				position: relative;
-				text-align: center;
+				text-align: left;
 				top: auto;
 				width: 100%;
 				display: block;
@@ -1283,7 +1283,7 @@
 					font-size: 1.75em;
 
 					br {
-						display: inline;
+						display: none;
 					}
 				}
 			}
@@ -1350,6 +1350,12 @@
 			h3 {
 				font-size: 1em;
 			}
+
+            // h1, h2, h3, h4, h5, h6 {
+			// 	br {
+			// 		display: none;
+			// 	}
+			// }
 
 		/* Section/Article */
 
