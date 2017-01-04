@@ -2,7 +2,7 @@
 @import 'libs/functions';
 @import 'libs/mixins';
 @import url('font-awesome.min.css');
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic");
 
 /*
 	Strata by HTML5 UP
@@ -40,7 +40,7 @@
 		)
 	));
 
-	$size-header-width: 35%;
+	$size-header-width: 30%;
 	$size-header-pad: 4em;
 
 /* Basic */
@@ -108,8 +108,8 @@
 	}
 
 	h2 {
-		font-size: 1.5em;
-		line-height: 1.5em;
+		font-size: 1.75em;
+		line-height: 1.75em;
 	}
 
 	h3 {
@@ -903,10 +903,10 @@
 		@include vendor('justify-content', 'space-between');
 		background-color:		_palette(accent2, bg);
 		background-attachment:	scroll,								fixed;
-		background-image:		url('images/overlay.png'),			url('../../images/bg.jpg');
-		background-position:	top left,							top left;
+		background-image:		url('../../images/atl.jpg'); //url('images/overlay.png'),
+		//background-position:	30%, 70%;//top left,							top left;
 		background-repeat:		repeat,								no-repeat;
-		background-size:		auto,								auto 100%;
+		background-size:		auto,100%;//auto,								auto 100%;
 		color: _palette(accent2, fg);
 		height: 100%;
 		left: 0;
@@ -924,6 +924,7 @@
 		> .inner {
 			@include vendor('flex-grow', '1');
 			margin: 0 0 ($size-header-pad * 0.5) 0;
+            max-width: 300px;
 		}
 
 		strong, b {
@@ -944,6 +945,14 @@
 		.image.avatar {
 			margin: 0 0 (_size(element-margin) * 0.5) 0;
 			width: 6.25em;
+		}
+
+        .icons {
+			margin: (_size(element-margin) * 0.5) 0 0 0;
+
+			a {
+				color: _palette(accent2, fg);
+			}
 		}
 	}
 
@@ -1204,7 +1213,6 @@
 			#header {
 				padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
 				width: $size-header-width;
-
 				h1 {
 					font-size: 1.25em;
 
@@ -1269,7 +1277,7 @@
 
 			#header {
 				background-attachment:	scroll;
-				background-position:	top left,	center center;
+				//background-position:	30%,	20%;
 				background-size:		auto,		cover;
 				left: auto;
 				padding: ($size-header-pad * 1.5) $size-header-pad;
@@ -1286,6 +1294,10 @@
 						display: none;
 					}
 				}
+
+                .icons {
+					margin: 0 0 (_size(element-margin) * 0.5) 0;
+				}
 			}
 
 		/* Footer */
@@ -1294,7 +1306,8 @@
 				background-attachment:	scroll;
 				background-color:		_palette(accent2, bg);
 				background-image:		url('images/overlay.png'),		url('../../images/bg.jpg');
-				background-position:	top left,						bottom center;
+
+                background-position:	top left,						bottom center;
 				background-repeat:		repeat,							no-repeat;
 				background-size:		auto,							cover;
 				bottom: auto;
@@ -1482,7 +1495,7 @@
 
 				h1 {
 					br {
-						display: none;
+						display: inline;
 					}
 				}
 			}
@@ -1502,3 +1515,20 @@
 			}
 
 	}
+
+
+
+/* Custom to this site */
+
+.links {
+    padding-top: 30px;
+}
+
+#resume {
+    padding-bottom: 10px;
+}
+.resume {
+
+    padding-left: 10px;
+    padding-right: 15px;
+}

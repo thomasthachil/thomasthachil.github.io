@@ -88,15 +88,15 @@
 						if (skel.breakpoint('medium').active) {
 
 							$window.off('scroll.strata_parallax');
-							$header.css('background-position', 'top left, center center');
+							$header.css('background-position', '15% 5%');
 
 						}
 						else {
 
-							$header.css('background-position', 'left 0px');
+							$header.css('background-position', '15% 5%');
 
 							$window.on('scroll.strata_parallax', function() {
-								$header.css('background-position', 'left ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
+								$header.css('background-position', '15% ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
 							});
 
 						}
