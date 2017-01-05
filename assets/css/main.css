@@ -1946,7 +1946,7 @@ input[type="button"],
 /* Main */
 #main {
   margin-left: 30%;
-  max-width: 54em;
+  max-width: calc(100% - 30%);
   padding: 8em 4em 4em 4em;
   width: calc(100% - 30%); }
   #main > section {
@@ -2162,7 +2162,7 @@ body.is-touch .poptrox-popup .closer {
 @media screen and (max-width: 1800px) {
   /* Basic */
   body, input, select, textarea {
-    font-size: 12pt; } }
+    font-size: 14pt; } }
 /* Large */
 @media screen and (max-width: 1280px) {
   /* Header */
@@ -2337,5 +2337,9 @@ body.is-touch .poptrox-popup .closer {
 .resume {
   padding-left: 10px;
   padding-right: 15px; }
+
+#main {
+  background-image: url("images/texture.png");
+  background-size: 100% 100%; }
 
 /*# sourceMappingURL=main.css.map */

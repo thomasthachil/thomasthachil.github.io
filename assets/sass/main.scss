@@ -998,7 +998,7 @@
 
 	#main {
 		margin-left: $size-header-width;
-		max-width: 50em + $size-header-pad;
+		max-width: calc(100% - #{$size-header-width});
 		padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
 		width: calc(100% - #{$size-header-width});
 
@@ -1196,7 +1196,7 @@
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 14pt;
 			}
 
 	}
@@ -1531,4 +1531,10 @@
 
     padding-left: 10px;
     padding-right: 15px;
+}
+
+#main {
+    background-image: url('images/texture.png');
+    background-size:100% 100%;;
+        //background-position: :
 }
