@@ -798,7 +798,7 @@
 	.button {
 		@include vendor('appearance', 'none');
 		@include vendor('transition', ('background-color #{_duration(transition)} ease-in-out', 'color #{_duration(transition)} ease-in-out', 'border-color #{_duration(transition)} ease-in-out'));
-		background-color: transparent;
+		background-color: _palette(border-bg);//transparent;
 		border-radius: _size(border-radius);
 		border: solid 3px _palette(border);
 		color: _palette(fg-bold) !important;
@@ -1534,7 +1534,7 @@
 }
 
 #main {
-    background-image: url('images/texture.png');
-    background-size:100% 100%;;
-        //background-position: :
+    //background-image: url('../../images/texture.png');
+    //background-repeat: repeat;
+
 }

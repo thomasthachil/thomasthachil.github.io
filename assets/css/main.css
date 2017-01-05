@@ -1758,7 +1758,7 @@ input[type="button"],
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-  background-color: transparent;
+  background-color: #f7f7f7;
   border-radius: 0.35em;
   border: solid 3px #efefef;
   color: #1A2B4F !important;
@@ -2337,9 +2337,5 @@ body.is-touch .poptrox-popup .closer {
 .resume {
   padding-left: 10px;
   padding-right: 15px; }
-
-#main {
-  background-image: url("images/texture.png");
-  background-size: 100% 100%; }
 
 /*# sourceMappingURL=main.css.map */
