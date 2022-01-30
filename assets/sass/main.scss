@@ -901,13 +901,14 @@
 		@include vendor('flex-direction', 'column');
 		@include vendor('align-items', 'flex-end');
 		@include vendor('justify-content', 'space-between');
-		background-color:		_palette(accent2, bg);
-		background-attachment:	scroll,								fixed;
-		background-image:		url('../../images/atl.jpg'); //url('images/overlay.png'),
+		// background-color:		_palette(accent2, bg);
+		background-attachment:	scroll,	fixed;
+		background-image: url('../../images/nyc.jpg'); //url('images/overlay.png'),
 		//background-position:	30%, 70%;//top left,							top left;
-		background-repeat:		repeat,								no-repeat;
-		background-size:		auto,100%;//auto,								auto 100%;
-		color: _palette(accent2, fg);
+		background-repeat:		repeat,	no-repeat;
+		background-position: center;
+		background-size:	cover;//auto,								auto 100%;
+		// color: _palette(accent2, fg);
 		height: 100%;
 		left: 0;
 		padding: ($size-header-pad * 2) $size-header-pad;
@@ -1521,7 +1522,7 @@
 /* Custom to this site */
 
 .links {
-    padding-top: 30px;
+    // padding-top: 30px;
 }
 
 #resume {
@@ -1533,8 +1534,11 @@
     padding-right: 15px;
 }
 
-#main {
-    //background-image: url('../../images/texture.png');
-    //background-repeat: repeat;
+.background-tint {
+	background-color: rgba(0,0,0,.4); /* Tint color */
+	background-blend-mode: multiply;
+  }
 
+  #header .icons {
+    margin: 0 0 0 0;
 }
