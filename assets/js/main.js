@@ -83,25 +83,25 @@
 
 				if (settings.parallax) {
 
-					// skel.on('change', function() {
+					skel.on('change', function() {
 
-					// 	if (skel.breakpoint('medium').active) {
+						if (skel.breakpoint('medium').active) {
 
-					// 		$window.off('scroll.strata_parallax');
-					// 		$header.css('background-position', '15% 5%');
+							$window.off('scroll.strata_parallax');
+							$header.css('background-position', '50% 5%');
 
-					// 	}
-					// 	else {
+						}
+						else {
 
-					// 		$header.css('background-position', '15% 5%');
+							$header.css('background-position', '50% 5%');
 
-					// 		$window.on('scroll.strata_parallax', function() {
-					// 			$header.css('background-position', '15% ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
-					// 		});
+							$window.on('scroll.strata_parallax', function() {
+								$header.css('background-position', '50% ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
+							});
 
-					// 	}
+						}
 
-					// });
+					});
 
 					$window.on('load', function() {
 						$window.triggerHandler('scroll');
