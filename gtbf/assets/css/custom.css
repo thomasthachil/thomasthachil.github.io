@@ -1,0 +1,105 @@
+#navbar-items > ul {
+    margin-top: 20px;
+}
+
+#site-nav > div > div.navbar-header > div {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#site-nav > div > div.navbar-header > button {
+    margin-top: 30px;
+}
+
+#navbar-items > ul > li > a {
+    font-size: 16px;
+}
+
+.center {
+    text-align: center;
+}
+
+h3.center {
+    text-align: center;
+}
+
+
+.schedule-box {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #343434;
+}
+
+.schedule-box::before {
+    border: none;
+  }
+
+
+.site-header {
+    background: url(../images/backgrounds/header.png) no-repeat center center/cover;
+    opacity: 1;
+
+}
+
+.intro {
+    text-align: left !important;
+}
+
+#theme {
+    font-size: 60px;
+}
+
+.logo img{
+    height: 70px;
+}
+
+#faq {
+    background-color: #f8f8f8;
+}
+
+.member img {
+    border-radius: 50%;
+}
+
+.speaker img {
+    border-radius: 50%;
+}
+
+.partner-box {
+    opacity: 1 !important;
+}
+
+.partner .partner-box-1 {
+    background: url(../images/sponsors/ey.png) no-repeat center center/contain;
+  }
+
+.partner .partner-box-2 {
+    background: url(../images/sponsors/rha.png) no-repeat center center/contain;
+}
+
+.partner .partner-box-3 {
+    background: url(../images/sponsors/suntrust.png) no-repeat center center/contain;
+  }
+
+.partner .partner-box-4 {
+background: url(../images/sponsors/campus.png) no-repeat center center/contain;
+}
+
+.partner .partner-box-5 {
+background: url(../images/sponsors/delta.png) no-repeat center center/contain;
+}
+
+.partner .partner-box-6 {
+background: url(../images/sponsors/ykk.png) no-repeat center center/contain;
+}
+
+p {
+    text-transform: none;
+    font-size: 18px;
+}
+
+.speaker img {
+    filter: grayscale(100%);
+}
